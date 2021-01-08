@@ -1,4 +1,4 @@
-This project was created to landing page on  enterprise website. The project has been created by using various languages such as HTML; CSS;Java-Script ; Bootstrap and Jquery. The project also has a ReadMe.
+This a website created for the user website which can be used for the advertisements of services and products and as well delivery,ordering purposes. The site has been created by the use of several languages such as: HTML;CSS;JAVA-SCRIPT ;BOOTSTRAP and JQUERY. The site also has got a Read-Me file for the guidance on the implementation of the site..
 AUTHOR: By Jean Bede
 Description
 This project entails on the very fast beging and guidelines on website creation. It has got simple and clear procedures to follow instructions which can be used by everyone who would like to start learning how to create a website or might have a addition on the site created already. Every views and addition are much welcomed.
