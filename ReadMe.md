@@ -1,5 +1,5 @@
 This a website created for the user website which can be used for the advertisements of services and products and as well delivery,ordering purposes. The site has been created by the use of several languages such as: HTML;CSS;JAVA-SCRIPT ;BOOTSTRAP and JQUERY. The site also has got a Read-Me file for the guidance on the implementation of the site..
-AUTHOR: By Jean Bede
+AUTHOR: <https://github.com/Jeanbede/the-answer-pizza>By Jean Bede
 Description
 This project entails on the very fast beging and guidelines on website creation. It has got simple and clear procedures to follow instructions which can be used by everyone who would like to start learning how to create a website or might have a addition on the site created already. Every views and addition are much welcomed.
 
@@ -24,7 +24,7 @@ Technologies Used
 HTML ;CSS; Java-Script; Bootstrap and jquery .
 
 Support and contact details;
-If your would like to contribute to this project, fork the project and raise a PR: You can reach us throuh mailing: <njeanbeda@hotmail com> Tel: 0720427590(fax: 09090) WEBSITE: https://github.com/Jeanbede/alma-designs
+If your would like to contribute to this project, fork the project and raise a PR: You can reach us throuh mailing: <njeanbeda@hotmail.com> Tel: 0720427590(fax: 09090) WEBSITE; https://github.com/Jeanbede/the-answer-pizza
 
 <License>
 MIT Copyright (c) 2020 Jean Bede.
