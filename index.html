@@ -16,36 +16,127 @@
 
     <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="images/pizza1.jpeg" alt="Card image cap" width="250">
+          <img class="card-img-top" src="images/pizza1.jpeg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Sicilian Pizza.</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h2 class="card-title">Sicilian Pizza.</h2>
+            <div class="card-text">
+                <h2>Ingredientts</h2>
+                <p>This Pizza is the most affordable and pocket friendly pizza. It is made of crust, the sauce, cheese and topping;Pepperoni, thinly sliced
+                    Onions, thinly sliced raw or caramelized, Ham, thinly sliced</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <small class="text-muted">Price  (RS-800)</small>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="images/pizza2.jpg" alt="Card image cap" width="250">
+          <img class="card-img-top" src="images/pizza2.jpg" alt="Card image cap" >
           <div class="card-body">
-            <h5 class="card-title">Neapolitan Pizza.</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
+            <h3 class="card-title">Neapolitan Pizza.</h3>
+            <div class="card-text">
+            <h3>Ingredients</h3>
+            <p>The Pizza is made of  Extra virgin olive oil; Cornmeal (to help slide the pizza onto the pizza stone); Tomato sauce (smooth, or puréed)
+                ;Firm mozzarella cheese, grated; Fresh soft mozzarella cheese, separated into small clumps;Fontina cheese, grated;
+                Parmesan cheese, grated; Feta cheese, crumbled.</p>            
+                 </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <small class="text-muted">Price  (RS-1300)</small>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="images/pizza3.jpg" alt="Card image cap" width="250">
+          <img class="card-img-top" src="images/pizza3.jpg" alt="Card image cap" >
           <div class="card-body">
-            <h5 class="card-title">Detroit Pizza.</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          </div>
+            <h4 class="card-title">Detroit Pizza.</h4>
+            <p class="card-text">
+                <h4>Ingredients</h4>
+                <p>The Pizza is made of several chocolate and silivay  spices such as , Mushrooms, very thinly sliced if raw, otherwise first sautéed
+                    Bell peppers, stems and seeds removed, very thinly sliced,  Italian pepperoncini, thinly sliced,   Italian sausage, cooked ahead and crumbled
+                    Sliced black olives, Chopped fresh basil, Baby arugula, tossed in a little olive oil, added as pizza comes out of the oven
+                    Pesto. </p>
+                 </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <small class="text-muted">Price  (RS-1800)</small>
           </div>
         </div>
       </div>
+
+
+
+
+      <div class="container">
+        <form action="action">
+        <div class="row">
+          <div class="col-4">
+            <label for="fname" >First Name</label>
+          </div>
+          <div class="col-4">
+            <input type="text" id="fname" name="firstname" placeholder="Your name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <label for="lname" >Last Name</label>
+          </div>
+          <div class="col-4">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <label for="type">Type of Pizza</label>
+          </div>
+          <div class="col-4">
+            <select id="type" name="type">
+                <option value="choose" class="form-control">Choose Type of Pizza You like Here!!!!</option>
+              <option value="sicilianpizza" class="form-control">Sicilian Pizza.</option>
+              <option value="neapolitanpizza" class="form-control">Neapolitan Pizza.</option>
+              <option value="detroitpizza" class="form-control">Detroit Pizza.</option>
+               </select>
+               <p>Please select your Price:</p>
+               <input type="radio" id="price" name="pizza" value="pizza" >
+               <label for="rs">RS-1000</label><br>
+               <input type="radio" id="price" name="pizza" value="pizza" >
+               <label for="rs">RS-1500</label><br>
+               <input type="radio" id="price" name="pizza" value="pizza">
+               <label for="rs" >RS-2000</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-4">
+            <textarea id="subject" name="subject" placeholder="Give us your fully addess, Please" style="height:150px" class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="row">
+            <input type="reset" value="Reset" class="form-control">
+          <input type="submit" value="Submit" class="form-control">
+        </div>
+        </form>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
