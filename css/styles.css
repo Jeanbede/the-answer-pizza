@@ -94,3 +94,15 @@ h1{
       margin-top: 0;
     }
   }  
+
+  .card-deck{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+  }
+  .card-text{
+    font-size: 20px;
+     margin-left: 380px;
+     width: 20%;  
+    display: none;
+      }
