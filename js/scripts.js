@@ -6,35 +6,25 @@ setInterval(function() {
 
 
 $(document).ready(function () {
-    $('#container').click(function () {
+    $('.card-body').click(function () {
         $(this).hide();
-        $('.text').show();
+        $('.card-text').show();
     });
   
-        $('.text').click(function(){
+        $('.card-text').click(function(){
              $(this).hide();
-            $('#container').show();
+            $('card-body').show();
     });
                     
-           $('#container1').click(function () {
-            $(this).hide();
-            $('.development').show();
-         });
+        //      $('.card-body').click(function () {
+        //     $(this).toggle();
+        //     $('.card-text').toggle();
+        //  });
 
-         $('.development').click(function () {
-            $(this).hide();
-            $('#container1').show();
-         });
-
-         $('#container2').click(function () {
-            $(this).toggle();
-            $('.product').toggle();
-         });
-
-         $('.product').click(function () {
-            $(this).toggle();
-            $('#container2').toggle();
-         });
+        //  $('.card-text').click(function () {
+        //     $(this).toggle();
+        //     $('card-body').toggle();
+        //  });
 
 
 
