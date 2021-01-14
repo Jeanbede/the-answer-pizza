@@ -37,27 +37,48 @@
           <div class="col-4">
             <select id="naame" name="type">
                 <option value="choose" class="form-control">Choose Type of Pizza You like Here!!!!</option>
-              <option value="sicilianpizza" class="form-control">Sicilian Pizza.</option>
-              <option value="neapolitanpizza" class="form-control">Neapolitan Pizza.</option>
-              <option value="detroitpizza" class="form-control">Detroit Pizza.</option>
+              <option value="sicilianpizza" class="form-control">(Small)Sicilian Pizza.</option>
+              <option value="neapolitanpizza" class="form-control">(Medium)Neapolitan Pizza.</option>
+              <option value="detroitpizza" class="form-control">(Large)Detroit Pizza.</option>
                </select>
-               <p>Please select your Price:</p>
-               <input type="radio" id="naame" name="pizza" value="pizza" >
-               <label for="rs">RS-1000</label><br>
-               <input type="radio" id="naame" name="pizza" value="pizza" >
-               <label for="rs">RS-1500</label><br>
-               <input type="radio" id="naame" name="pizza" value="pizza">
-               <label for="rs" >RS-2000</label>
-          </div>
+               </div>
         </div>
         <div class="row">
           <div class="col-4">
             <label for="subject">Give Us Your Location for the delivery of Our Products.</label>
           </div>
           <div class="col-4">
-            <textarea id="naame" name="subject" placeholder="Give us your fully addess, Please" style="height:150px" class="form-control"></textarea>
+            <textarea id="naame" name="subject" placeholder="Give us your fully addess, Please?" style="height:150px" class="form-control"></textarea>
           </div>
         </div>
+
+
+
+        <p id="blink">Executive  Order:</p>
+               <input type="radio" id="naame" name="pizza" value="pizza" >
+               <label for="rs">RS-4000</label><br>
+               <input type="radio" id="naame" name="pizza" value="pizza" >
+               <label for="rs">RS-5000</label><br>
+               <input type="radio" id="naame" name="pizza" value="pizza">
+               <label for="rs" >RS-6000</label>
+
+
+
+
+
+
+        <table id="adsressbook">
+          <tr>
+              <th>Contact</th>
+          </tr>
+          <tr>
+              <td>
+                  <input type="button" value="Make An Order by Clicking" onClick="addcontact()" />
+                 
+              </td>
+          </tr>
+      </table>
+
         <div class="row">
             <input type="reset" value="Reset" class="form-control">
           <input type="submit"value="Submit"  id="submit"  class="form-control">
@@ -69,8 +90,7 @@
         <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">Home</a>
         <a class="flex-sm-fill text-sm-center nav-link active" href="form.html">Form</a>
          </nav>
-
-     
+ 
 
       <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
       <script src="js/jquery-3.5.1 (1).js"></script>

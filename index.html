@@ -11,20 +11,17 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
-
     <h1>The Answer Pizza!!!</h1>
-
-
-                  <div class="container">
+        <div class="container">
               <div class="row">
                   <div class="col-12">
-                      <h3 class="font-weight-light text-center mt-5 mb-4 text-capitalize">HAVE YOUR TASTE.</h3>
+                      <h2 class="font-weight-light text-center mt-5 mb-4 text-capitalize">HAVE YOUR TASTE.</h2>
                   </div>
               </div>
               <div class="row">
                   <div class="col-4">
                       <img class="mx-auto d-block" src="images/pizza1.jpeg" id="design">
-                      <h5 class="mt-2">Sicilian Pizza.</h5>
+                      <h5 class="mt-2">(Small)Sicilian Pizza.</h5>
                       
                       <p id="design-p"> <strong>Ingredients.</strong>This Pizza is the most affordable and pocket friendly pizza. It is made of crust, the sauce, cheese and topping;Pepperoni, thinly sliced
                         Onions, thinly sliced raw or caramelized, Ham, thinly sliced.</p>
@@ -34,7 +31,7 @@
 
                   <div class="col-4">
                       <img class="mx-auto d-block" src="images/pizza2.jpg" id="development" width="280">
-                      <h5 class="mt-2">Neapolitan Pizza.</h5>
+                      <h5 class="mt-2">(Medium)Neapolitan Pizza.</h5>
                      
                       <p id="development-p"> <strong>Ingredients.</strong>The Pizza is made of  Extra virgin olive oil; Cornmeal (to help slide the pizza onto the pizza stone); Tomato sauce (smooth, or puréed)
                         ;Firm mozzarella cheese, grated; Fresh soft mozzarella cheese, separated into small clumps;Fontina cheese, grated;
@@ -43,7 +40,7 @@
                   </div>
                   <div class="col-4">
                       <img class="mx-auto d-block" src="images/pizza3.jpg" id="product" width="280">
-                      <h5 class="mt-2">Detroit Pizza.</h5>
+                      <h5 class="mt-2">(Large)Detroit Pizza.</h5>
                       
                       <p id="product-p"> <strong>Ingredients.</strong>The Pizza is made of several chocolate and silivay  spices such as , Mushrooms, very thinly sliced if raw, otherwise first sautéed
                         Bell peppers, stems and seeds removed, very thinly sliced,  Italian pepperoncini, thinly sliced,   Italian sausage, cooked ahead and crumbled
@@ -53,8 +50,37 @@
                   </div>
               </div>
           </div>
-          
+           
+          <div class="form-row">
+            <div class="form-group col-md-2">
+             <form name="input" action="#" method="get" onsubmit="return false;">
+            <label for="types">Select Your Choice By Order.</label>
+              <select name="cars" id="cars" multiple>
+              <option value="100">RS-1600</option>
+              <option value="150">RS-1800</option>
+              <option value="200">RS-2000</option>
+              <option value="250">RS-2500</option>
+              <option value="300">RS-3000</option>
+              <option value="350">RS-3500</option>
+              <option value="400">RS-4000</option>
+              </select>
+                            
+            <p>Key in Numbers(Normal-Price):</p>
+            <input type="text" name="time" value=" ">
+            <p>Key in Numbers(Price on Order):</p><input type="text" name="cost" value=" ">
+    
+            <p>Total-Cost:</p><input type="text" name="total" value=" ">
+             <h3>THE ANSWER PIZZA!!!</h3>
+            <marquee direction="right" scrollamount="30"><h3>OFFER!!! OFFER!!! OFFER!!!</h3></marquee>
+           
+            <input type="submit" value="Calculate Amount" onclick="updatesum()"><br><br>
+            <input type="reset" value="Reset"><br><br><br>
+        </form> 
+                </div>
+            </div>  
+   
 
+            
           <div class="gosomewhere">
             <a href="#" class="btn btn-primary">Order By Clicking On the Form Button.</a>
 
@@ -62,10 +88,7 @@
               <a class="flex-sm-fill text-sm-center nav-link active" href="index.html">Home</a>
               <a class="flex-sm-fill text-sm-center nav-link active" href="form.html">Form</a>
                </nav>
-
-          </div>
-
-
+          </div>          
 
             <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
             <script src="https://code.jquery.com/jquery-3.5.1.js"></script>

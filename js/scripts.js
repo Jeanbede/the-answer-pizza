@@ -50,7 +50,7 @@
     var blink = document.getElementById('blink');
 setInterval(function() {
     blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
-}, 6500);
+}, 100);
 
                          
              
@@ -157,11 +157,55 @@ $(document).ready(function(){
 
 
 
+var contacts = [];
+
+function addcontact() {
+    var person = {
+        firstName: prompt("firstname", ""),
+        lastName: prompt("lastname", ""),
+        address: prompt("address", ""),
+        phoneNumber: prompt("phonenumber", "")
+    };
+    contacts.push(person);
+}
+
+function resetView() {
+    document.getElementById("output").innerHTML = "";
+}
+
+function printPerson(person) {
+    document.getElementById("output").innerHTML +=
+        person.firstName + " - " +
+        person.lastName + " - " +
+        person.address + " - " +
+        person.phoneNumber + "<br />";
+}
+
+function listContacts() {
+    resetView();
+    var len = contacts.length;
+    for (x = 0; x < len; x++) {
+        printPerson(contacts[x]);
+    }
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+function updatesum() {
+    document.input.total.value = (document.input.time.value -0) + (document.input.cost.value -0);
+        return false;
+    }
 
 
 
